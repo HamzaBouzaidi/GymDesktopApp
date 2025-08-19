@@ -1,4 +1,8 @@
-﻿using System.Text;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -12,22 +16,13 @@ using System.Windows.Shapes;
 namespace GymDesktopApp
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Register.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Register : Page
     {
-        
-      
-        public MainWindow()
+        public Register()
         {
-            InitializeComponent();  
-            
-
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-           Main.Content = new Register();
+            InitializeComponent();
         }
     }
-    }
+}
