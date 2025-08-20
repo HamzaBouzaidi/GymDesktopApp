@@ -85,7 +85,7 @@
                 
                
                 />
-        <Button 
+        <Button Click="Loginbtn_Click"
             Style="{DynamicResource RoundedButton}"
             Height="30" Width="100"
             Content="LOG IN"

@@ -29,5 +29,8 @@ namespace GymDesktopApp
         {
            Main.Content = new Register();
         }
+        private void Loginbtn_Click(object sender, RoutedEventArgs e) { 
+        Main.Content = new Signin();
+        }
     }
     }
