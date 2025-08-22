@@ -16,21 +16,28 @@ namespace GymDesktopApp
     /// </summary>
     public partial class MainWindow : Window
     {
-        
-      
+
+
         public MainWindow()
         {
-            InitializeComponent();  
-            
+            InitializeComponent();
+
 
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-           Main.Content = new Register();
+            Main.Content = new Register();
         }
-        private void Loginbtn_Click(object sender, RoutedEventArgs e) { 
-        Main.Content = new Signin();
+        private void Loginbtn_Click(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new Signin();
         }
+
+        private void ButtonRegister_Click(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new Register();
+        }
+
     }
-    }
+}
