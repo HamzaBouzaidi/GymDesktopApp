@@ -32,5 +32,7 @@ namespace GymDesktopApp
                 mainWindow.Main.Content = new Signin();
             }
         }
+
+      
     }
 }

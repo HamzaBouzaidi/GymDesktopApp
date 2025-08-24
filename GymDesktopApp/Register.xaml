@@ -60,13 +60,13 @@
         <TextBlock Grid.Row="0" Grid.Column="1" Text="REGISTER" FontSize="24" FontWeight="Bold" Margin="80,20,0,0" HorizontalAlignment="Left" />
         <!-- Username with its label-->
         <TextBlock Grid.Row="1" Grid.Column="1" Text="Username:" FontSize="16" FontWeight="Bold" Margin="80,40,0,0" HorizontalAlignment="Left"/>
-        <Label  Height="30 " Width="200  " Grid.Row="1" Grid.Column="1" Margin="80,50,0,0" HorizontalAlignment="Left" Background="GhostWhite" BorderThickness="1" BorderBrush="black"/>
+        <TextBox  Height="30 " Width="200  " Grid.Row="1" Grid.Column="1" Margin="80,50,0,0" HorizontalAlignment="Left" Background="GhostWhite" BorderThickness="1" BorderBrush="black"/>
            <!--Password with its label-->
         <TextBlock Grid.Row="1" Grid.Column="1" Text="Password:" FontSize="16" FontWeight="Bold" Margin="80,110,0,0" HorizontalAlignment="Left"/>
-        <Label Style="{DynamicResource PasswordLabel}"  Height="30 " Width="200  " Grid.Row="2" Grid.Column="1" Margin="80,0,0,70" HorizontalAlignment="Left" Background="GhostWhite" BorderThickness="1" BorderBrush="black"/>
+        <TextBox   Height="30 " Width="200  " Grid.Row="2" Grid.Column="1" Margin="80,0,0,70" HorizontalAlignment="Left" Background="GhostWhite" BorderThickness="1" BorderBrush="black"/>
        <!--Confirm password-->
         <TextBlock Grid.Row="2" Grid.Column="1" Text="Confirm Password:" FontSize="16" FontWeight="Bold" Margin="80,50,0,0" HorizontalAlignment="Left"/>
-        <Label Style="{DynamicResource PasswordLabel}"  Height="30 " Width="200  " Grid.Row="2" Grid.Column="1" Margin="80,80,0,0" HorizontalAlignment="Left" Background="GhostWhite" BorderThickness="1" BorderBrush="black" />
+        <TextBox   Height="30 " Width="200  " Grid.Row="2" Grid.Column="1" Margin="80,80,0,0" HorizontalAlignment="Left" Background="GhostWhite" BorderThickness="1" BorderBrush="black" />
         <!-- App Title -->
         <TextBlock Grid.Row="1"   Text="Gym App Tracker" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" />
         <!-- ✅ Show Password + Buttons section (FIXED) -->
