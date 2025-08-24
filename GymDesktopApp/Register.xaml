@@ -86,8 +86,8 @@
             <TextBlock Text="Already have an account?" FontWeight="Bold" FontSize="16" Margin="0,0,0,5"/>
 
             <!--Sign In button-->
-            <Button Content="SIGN IN" FontWeight="Bold" Height="30" Width="70" 
-                    Background="CornflowerBlue" BorderBrush="Black"/>
+            <Button  Content="SIGN IN" FontWeight="Bold" Height="30" Width="70" 
+                    Background="CornflowerBlue" BorderBrush="Black" Click="SignUpFromRegister_Click" />
         </StackPanel>
     </Grid>
     

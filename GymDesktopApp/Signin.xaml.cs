@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Common;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -25,7 +26,14 @@ namespace GymDesktopApp
             InitializeComponent();
         }
 
-      
-       
+        private void Register_Click(object sender, RoutedEventArgs e)
+        {
+            var mainWindow = Application.Current.MainWindow as MainWindow;
+            if (mainWindow != null)
+            {
+                mainWindow.Main.Content = new Register();
+            }
+        }
+
     }
 }

@@ -24,5 +24,13 @@ namespace GymDesktopApp
         {
             InitializeComponent();
         }
+        private void SignUpFromRegister_Click(object sender, RoutedEventArgs e)
+        {
+            var mainWindow = Application.Current.MainWindow as MainWindow;
+            if (mainWindow != null)
+            {
+                mainWindow.Main.Content = new Signin();
+            }
+        }
     }
 }

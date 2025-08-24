@@ -59,7 +59,7 @@
         <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,20">
             <!-- Text right above the button -->
             <TextBlock Text="Create an account" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,5"/>
-            <Button Content="REGISTER" Height="40" Width="200" HorizontalAlignment="Center" Background="CornflowerBlue" BorderBrush="Black" BorderThickness="3" FontSize="16" Click="ButtonRegister_Click" />
+            <Button Content="REGISTER" Height="40" Width="200"  HorizontalAlignment="Center" Background="CornflowerBlue" BorderBrush="Black" BorderThickness="3" FontSize="16"  Click="Register_Click" />
         </StackPanel>
        
     </Grid>

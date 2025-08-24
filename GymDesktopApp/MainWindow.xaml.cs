@@ -34,9 +34,14 @@ namespace GymDesktopApp
             Main.Content = new Signin();
         }
 
-        private void ButtonRegister_Click(object sender, RoutedEventArgs e)
+
+        private void Register_Click(object sender, RoutedEventArgs e)
         {
-            Main.Content = new Register();
+            Main.Content = new Signin();
+        }
+        private void SignUpFromRegister_Click(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new Signin();
         }
 
     }
