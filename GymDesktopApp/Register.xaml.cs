@@ -33,6 +33,11 @@ namespace GymDesktopApp
             }
         }
 
-      
+        private void Passwordcheckbox_Click(object obj, RoutedEventArgs e)
+        {
+
+        }
+
+       
     }
 }
