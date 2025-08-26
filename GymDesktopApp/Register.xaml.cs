@@ -24,6 +24,7 @@ namespace GymDesktopApp
         {
             InitializeComponent();
         }
+
         private void SignUpFromRegister_Click(object sender, RoutedEventArgs e)
         {
             var mainWindow = Application.Current.MainWindow as MainWindow;
@@ -33,11 +34,21 @@ namespace GymDesktopApp
             }
         }
 
-        private void Passwordcheckbox_Click(object obj, RoutedEventArgs e)
+        private void Passwordcheckbox_Click(object sender, RoutedEventArgs e)
         {
-
+            string txtpassword;
+            // Assuming Passwordcheckbox is a CheckBox control
+            var checkbox = sender as CheckBox;
+            if (checkbox != null && checkbox.IsChecked == true)
+            {
+               
+                // Add logic for when the checkbox is checked
+               
+            }
+            else
+            {
+                // Add logic for when the checkbox is unchecked
+            }
         }
-
-       
     }
 }
